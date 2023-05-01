@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPUTS</title>
+</head>
+<body>
+    <h1 id="hola">IMPUTS</h1>
+    <main>
+        <h3>Input tipo text</h3>
+        <!-- FORM -->
+        <form action="Base de datos">
+            <label for="Usuario">
+                <span>Nombre</span>
+                <input type="text" id="Usuario" autocomplete="name"  required="name">
+                <input type="submit">
+            </label>
+                <br><br>
+            <label for="apellido">
+                <span>Apellido</span>
+                <input type="text" id="apellido" autocomplete="lastname" required="lastname"> 
+                <input type="submit">       
+            </label>   
+        </form>
+        <hr>
+
+        <!-- INPUT TIPO PASSWORD Y EMAIL -->
+        <h3>Input tipo password y Email</h3>
+        <form action="">
+            <label for="password">
+                <span>password</span>
+                <input type="password" name="password" id="password" autocomplete="password" required="password">
+            </label>
+                <br><br>
+             <label for="email">
+                 <span>Email</span>
+                 <input type="email" name="email" id="email" autocomplete="email" required="email">
+                 <input type="submit">
+            </label>
+            <br><br>
+        </form>
+            <hr>
+        <!-- IMPUT DE AREA -->
+        <h3>Imput de Area</h3>
+        <form action="DATABASE">
+            <label for="comentario">
+                <span>Comenta</span>
+                <textarea name="coment" id="coment" cols="30" rows="10">"Comenta", o si no....</textarea>
+            </label>
+        </form>
+        <hr>
+        <!-- RADIO BUTTON -->
+        <h3>Radio button input boton</h3>
+        <form action="data-base">
+            
+                <span>Selecciona</span>
+                <br>
+                <label for="pizza"><input type="radio" name="comidas" id="pizza">Pizza</label>
+                <label for="hambur"><input type="radio" name="comidas" id="hambur">Hamburguesa</label>
+                <label for="salchi"><input type="radio" name="comidas" id="salchi">Salchi</label>
+           
+        </form>
+        <hr>
+        <!-- CHECK BOX -->
+        <h3>Check box</h3>
+        <form action="database">
+            <label for="">
+                <span>Selecciona varios</span> <br>
+                <input type="checkbox" name="pizza" value="pizza">Pizza <br>
+                <input type="checkbox" name="salchi" value="salchi">salchi <br>
+                <input type="checkbox" name="pizza" value="pizza">Pizza <br>
+                <input type="checkbox" name="pizza" value="pizza">Pizza <br>
+                <input type="checkbox" name="" id="" value="">
+            </label>
+        </form>
+        <hr>
+        <!--LIST BOX  -->
+        <h3>List box</h3>
+        <form action="data-base">
+            <label for="Comidas">
+                <span>Selecciona valor</span>
+                <br>
+                <select name="Comidas" id="comidas">
+                    <option value="pizza">Pizza</option>
+                    <option value="pizza">Hamverga</option>
+                    <option value="pizza">polo</option>
+                    <option value="pizza">comidas</option>
+                    <option value="pizza">Pizzassss</option>
+                </select>
+            </label>
+         <hr>
+        <!-- INPUT BOX -->
+        <h3>Input box</h3>
+        <form action="database">
+            <label for="input-box">
+                <span>Elige un archivo Imagen </span><br><br>
+                <input type="file" name="imagen">
+                <input type="submit" value="Enviar">
+            </label>
+        </form>
+        <hr>
+        <!-- IMAGE BUTTON -->
+        <h3>Imagen Button</h3>
+        <form action="database">
+            <label for="IMAGEN">
+                <span>IMAGEN</span>
+                <input type="image" src="direccion de una imagen de un boton" alt="Boton">
+            </label>
+        </form>
+        <hr>
+        <!-- INPUT TIPO LABLE -->
+        <h3>Input ripo label</h3>
+        <form action="database">
+            <span>Genero:</span>
+            
+            <label for="male">
+                <input type="radio" id="male" name="genero">hombre
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="genero">mujer
+            </label>
+            <label for="oter">
+                <input type="radio" id="oter" name="genero">otro
+            </label>
+        </form>
+        <hr>
+        <!-- GRUPOS DE ELEMENTOS otra forma de usar label-->
+        <h3>Grupo de elementos</h3>
+        <fieldset>
+            <legend>Detalles de contacto</legend>
+            <label for="email1">Email:</label> <br>
+            <input type="email"name="email1" id="email1"><br>
+            
+            <label for="password1">Password:</label> <br>
+            <input type="password"name="password1" id="password1"><br>
+            
+            <label for="new-Password">New-Password:</label><br>
+            <input type="password"name="New-Password" id="new-Password"><br>
+        </fieldset>
+<hr>
+        <!-- VALIDACION DE FORMULARIOS (REQUIRED)-->
+        <h3>Validacion de formularios</h3>
+        <form action="database">
+            <label for="username">
+                <span>Introduce user name</span>
+                <input type="text" name="username" id="username" required="username"> <input type="submit" value="Enviar">
+            </label><br><br>
+            <label for="fono">
+                <span>Introduce numero de telefono</span>
+                <input type="text" name="fono" id="fono" required="fono"><input type="submit" value="Enviar">
+            </label><br><br>
+            <label for="direccion">
+                <span>Introduce una direccion</span>
+                <input type="text" name="direccion" id="direccion" required="direccion"><input type="submit" value="Enviar">
+            </label><br><br>
+        </form>
+        <hr>
+        <!-- FECHAS -->
+        <h3>Input tipo time</h3>
+        <form action="database">
+            <label for="date">
+                <span>Fecha</span>
+                <input type="datetime-local" id="date">
+            </label>
+        </form>
+        <hr>
+        <!-- INPUT DE TIPO SEARCH BUSCAAR -->
+        <h3>Input tipo search</h3>
+        <form action="database">
+            <label for="search">
+                <span>Buscar</span>
+                <input type="search" name="search" id="search" placeholder="Buscar">
+            </label>
+        </form>
+    </main>
+
+</body>
+</html>
