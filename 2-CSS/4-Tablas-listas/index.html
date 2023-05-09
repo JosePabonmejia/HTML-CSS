@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y listas</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>prueva</h1><hr>
+    <!-- LISTAS -->
+    <h2>Order list</h2>
+    <header>
+        <ol class="lista1">
+            <li><a href="">Lunes</a></li>
+            <li><a href="">Martes</a></li>
+            <li><a href="">Miercoles</a></li>
+            <li><a href="">Jueves</a></li>
+            <li><a href="">Viernes</a></li>
+        </ol>
+    </header>
+    <hr>
+    <h2>UnOrderlist</h2>
+    <header>
+        <ul class="lista2">
+            <li><a href="">Lunes</a></li>
+            <li><a href="">Martes</a></li>
+            <li><a href="">Miercoles</a></li>
+            <li><a href="">Jueves</a></li>
+            <li><a href="">Viernes</a></li>
+            
+        </ul>
+    </header>
+    <hr>
+    <header>
+        <table class="tabla1">
+            <tr>
+                <th scope="col">Materias</th>
+                <th scope="col">Lunes</th>
+                <th scope="col">Martes</th>
+                <th scope="col">Miercoles</th>
+                <th scope="col">Jueves</th>
+                <th scope="col">Viernes</th>
+            </tr>
+            <tr>
+                <th scope="row">Mate</th>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <th scope="row">Fisica</th>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+                <td>12:00</td>
+            </tr>
+            
+        </table>
+    </header>
+    <hr>
+    <header>
+        <textarea name="" id="area" cols="30" rows="10" placeholder="Comentar..."></textarea>
+
+    </header>
+    <hr>
+    <fieldset>
+        <legend>Recupera datos</legend>
+        <label for="email">Email :<input type="email" name="email" id="email" autocomplete="email" required="email"></label><input type="submit" value="Enviar"><br>
+        <label for="password">Password :<input type="password" name="password" id="password" autocomplete="password" required="password"></label><input type="submit" value="Enviar"><br>
+
+    </fieldset>
+</body>
+</html>

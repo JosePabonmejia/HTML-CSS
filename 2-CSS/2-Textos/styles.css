@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+h1{
+    color: red;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+}
+.p1{
+    font-family:sans-serif;
+}
+.titulo1{
+    
+    color:white;
+    background-color: black;
+    letter-spacing: 10px;
+}
+.p2{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 2rem;
+    font-weight: 100;/*Grosor de la letra*/
+}
+.p3{
+    text-align: right;
+}
+/*  */
+
+

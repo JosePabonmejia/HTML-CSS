@@ -1,0 +1,29 @@
+.contenedor{
+    height: 50vh;
+    width:50vh;
+    background-color: aquamarine;
+    position: relative;
+    
+}
+.container{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    
+
+}
+.container1{
+    background-color:green;
+    height: 100px;
+    width: 100px;
+    position: absolute;   
+}
+.container2{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom:0 ;
+}

@@ -1,0 +1,36 @@
+h1{
+    color: rebeccapurple;
+}
+.head1  {
+    list-style:decimal-leading-zero;/* numeros decimales */
+    list-style:upper-alpha;/* Letras mayusculas */
+    list-style:lower-alpha;/* Letras minusculas */
+    list-style:upper-roman;/* Letras romanas */
+    
+
+}
+.lista1 li a {  
+text-decoration: none;
+}
+
+.lista2 {
+    list-style:circle;/* Circules en las listas */
+    list-style: square;/* Cuadrados */
+    list-style-image: url(./);
+
+
+}
+
+.tabla1 th{
+    background-color: rgb(255, 77, 0);
+
+}
+.tabla1 td{
+    background-color: rgb(242, 116, 6);        
+}
+#area {
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
